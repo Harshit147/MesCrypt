@@ -1,6 +1,6 @@
 from .models import Message, DigitalCertificate
 from django.forms import ModelForm
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 import hashlib
 import base64
 

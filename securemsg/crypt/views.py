@@ -3,7 +3,7 @@ from .forms import MessageForm
 from django.views.generic.edit import FormView
 from django.views.generic import ListView
 from .models import Message
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 import base64
 import hashlib
 from django.contrib.auth import authenticate, login, logout

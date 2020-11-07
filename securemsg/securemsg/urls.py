@@ -21,7 +21,7 @@ from crypt.views import MessageView, ReceivedMessage, Login, Logout
 
 
 urlpatterns = [
-    path('admin/',include(admin.site.urls)),
+    path('admin/',admin.site.urls),
     path('success/', ReceivedMessage.as_view(), name='received-message'),
     path('message/', MessageView.as_view(), name='message-view'),
     path('login/',Login, name='login-redirect'),
