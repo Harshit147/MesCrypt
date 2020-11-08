@@ -1,4 +1,4 @@
-from .models import Message, DigitalCertificate
+from .models import Message
 from django.forms import ModelForm
 from Cryptodome.Cipher import AES
 import hashlib

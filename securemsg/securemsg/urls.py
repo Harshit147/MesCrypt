@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path,include
 from django.conf import  settings
 from django.conf.urls.static import static
-from crypt.views import MessageView, ReceivedMessage, Login, Logout
+from crypton.views import MessageView, ReceivedMessage, Login, Logout
 
 
 urlpatterns = [

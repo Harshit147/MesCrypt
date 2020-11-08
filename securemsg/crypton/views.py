@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms import MessageForm
+from crypton.forms import MessageForm
 from django.views.generic.edit import FormView
 from django.views.generic import ListView
 from .models import Message

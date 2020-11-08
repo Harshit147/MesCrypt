@@ -20,9 +20,9 @@ class Message(models.Model):
         return unicode(self.user_id)
 
 
-class DigitalCertificate(models.Model):
-    user_id = models.ForeignKey(User,on_delete=models.CASCADE)
-    user_name = models.ForeignKey(User,on_delete=models.CASCADE)
+#class DigitalCertificate(models.Model):
+    #user_id = models.ForeignKey(User,on_delete=models.CASCADE)
+    #user_name = models.ForeignKey(User,on_delete=models.CASCADE)
 
-    def __unicode__(self):
-        return unicode(self.user_id)
+    #def __unicode__(self):
+        #return unicode(self.user_id)
